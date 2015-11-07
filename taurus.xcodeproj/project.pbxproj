@@ -196,6 +196,7 @@
 				TargetAttributes = {
 					D4EEF74D1BEE9D550057BF9A = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 635S95WM97;
 					};
 					D4EEF7641BEE9D550057BF9A = {
 						CreatedOnToolsVersion = 7.1;
@@ -403,9 +404,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = taurus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Srinivasan.taurus;
+				PRODUCT_BUNDLE_IDENTIFIER = ravi.taurus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -414,9 +417,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = taurus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Srinivasan.taurus;
+				PRODUCT_BUNDLE_IDENTIFIER = ravi.taurus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -488,6 +493,7 @@
 				D4EEF77B1BEE9D550057BF9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D4EEF77C1BEE9D550057BF9A /* Build configuration list for PBXNativeTarget "taurusTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +502,7 @@
 				D4EEF77E1BEE9D550057BF9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D4EEF77F1BEE9D550057BF9A /* Build configuration list for PBXNativeTarget "taurusUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +511,7 @@
 				D4EEF7811BEE9D550057BF9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
