@@ -141,10 +141,10 @@
             </objects>
             <point key="canvasLocation" x="711" y="505"/>
         </scene>
-        <!--View Controller-->
+        <!--Sign Up View Controller-->
         <scene sceneID="hc0-DS-prZ">
             <objects>
-                <viewController id="pla-jY-4sa" sceneMemberID="viewController">
+                <viewController id="pla-jY-4sa" customClass="SignUpViewController" customModule="taurus" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="DdG-WF-GTE"/>
                         <viewControllerLayoutGuide type="bottom" id="1pH-No-HNk"/>
