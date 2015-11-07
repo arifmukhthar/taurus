@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B79623741BEEA0CC00ABFB72 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79623731BEEA0CC00ABFB72 /* SignUpViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		D4EEF7521BEE9D550057BF9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EEF7511BEE9D550057BF9A /* AppDelegate.swift */; };
 		D4EEF7541BEE9D550057BF9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EEF7531BEE9D550057BF9A /* ViewController.swift */; };
 		D4EEF7571BEE9D550057BF9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4EEF7551BEE9D550057BF9A /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B79623731BEEA0CC00ABFB72 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		D4EEF74E1BEE9D550057BF9A /* taurus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = taurus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4EEF7511BEE9D550057BF9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4EEF7531BEE9D550057BF9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				D4EEF7511BEE9D550057BF9A /* AppDelegate.swift */,
 				D4EEF7531BEE9D550057BF9A /* ViewController.swift */,
 				D4EEF7551BEE9D550057BF9A /* Main.storyboard */,
+				B79623731BEEA0CC00ABFB72 /* SignUpViewController.swift */,
 				D4EEF75B1BEE9D550057BF9A /* Assets.xcassets */,
 				D4EEF75D1BEE9D550057BF9A /* LaunchScreen.storyboard */,
 				D4EEF7601BEE9D550057BF9A /* Info.plist */,
@@ -262,6 +265,7 @@
 			files = (
 				D4EEF7541BEE9D550057BF9A /* ViewController.swift in Sources */,
 				D4EEF75A1BEE9D550057BF9A /* taurus.xcdatamodeld in Sources */,
+				B79623741BEEA0CC00ABFB72 /* SignUpViewController.swift in Sources */,
 				D4EEF7521BEE9D550057BF9A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
