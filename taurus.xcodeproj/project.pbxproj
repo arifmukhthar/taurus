@@ -15,6 +15,8 @@
 		D4EEF75F1BEE9D550057BF9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4EEF75D1BEE9D550057BF9A /* LaunchScreen.storyboard */; };
 		D4EEF76A1BEE9D550057BF9A /* taurusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EEF7691BEE9D550057BF9A /* taurusTests.swift */; };
 		D4EEF7751BEE9D550057BF9A /* taurusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EEF7741BEE9D550057BF9A /* taurusUITests.swift */; };
+		D4EEF7851BEEA9B60057BF9A /* ChatListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EEF7841BEEA9B60057BF9A /* ChatListTableViewCell.swift */; };
+		D4EEF7871BEEACB50057BF9A /* ChatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EEF7861BEEACB50057BF9A /* ChatListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		D4EEF7701BEE9D550057BF9A /* taurusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = taurusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4EEF7741BEE9D550057BF9A /* taurusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = taurusUITests.swift; sourceTree = "<group>"; };
 		D4EEF7761BEE9D550057BF9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4EEF7841BEEA9B60057BF9A /* ChatListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatListTableViewCell.swift; sourceTree = "<group>"; };
+		D4EEF7861BEEACB50057BF9A /* ChatListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 				D4EEF7551BEE9D550057BF9A /* Main.storyboard */,
 				D4EEF75B1BEE9D550057BF9A /* Assets.xcassets */,
 				D4EEF75D1BEE9D550057BF9A /* LaunchScreen.storyboard */,
+				D4EEF7841BEEA9B60057BF9A /* ChatListTableViewCell.swift */,
+				D4EEF7861BEEACB50057BF9A /* ChatListViewController.swift */,
 				D4EEF7601BEE9D550057BF9A /* Info.plist */,
 				D4EEF7581BEE9D550057BF9A /* taurus.xcdatamodeld */,
 			);
@@ -261,8 +267,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4EEF7541BEE9D550057BF9A /* ViewController.swift in Sources */,
+				D4EEF7851BEEA9B60057BF9A /* ChatListTableViewCell.swift in Sources */,
 				D4EEF75A1BEE9D550057BF9A /* taurus.xcdatamodeld in Sources */,
 				D4EEF7521BEE9D550057BF9A /* AppDelegate.swift in Sources */,
+				D4EEF7871BEEACB50057BF9A /* ChatListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
