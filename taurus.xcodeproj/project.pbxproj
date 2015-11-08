@@ -217,7 +217,7 @@
 				TargetAttributes = {
 					D4EEF74D1BEE9D550057BF9A = {
 						CreatedOnToolsVersion = 7.1;
-						DevelopmentTeam = B2NMY273BR;
+						DevelopmentTeam = 635S95WM97;
 					};
 					D4EEF7641BEE9D550057BF9A = {
 						CreatedOnToolsVersion = 7.1;
@@ -436,7 +436,7 @@
 				INFOPLIST_FILE = taurus/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Srinivasan.taurus;
+				PRODUCT_BUNDLE_IDENTIFIER = ravi.taurus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -450,7 +450,7 @@
 				INFOPLIST_FILE = taurus/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Srinivasan.taurus;
+				PRODUCT_BUNDLE_IDENTIFIER = ravi.taurus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
