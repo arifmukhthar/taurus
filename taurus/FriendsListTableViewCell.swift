@@ -1,5 +1,5 @@
 //
-//  ChatListTableViewCell.swift
+//  FriendsListTableViewCell.swift
 //  taurus
 //
 //  Created by Venkatesh Muthukrishnan on 11/7/15.
@@ -8,10 +8,10 @@
 
 import UIKit
 
-class ChatListTableViewCell: UITableViewCell {
+class FriendsListTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var ChatName: UILabel!
-    @IBOutlet weak var chatImage: UIImageView!
+    @IBOutlet weak var friendProfilePic: UIImageView!
+    @IBOutlet weak var friendName: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
