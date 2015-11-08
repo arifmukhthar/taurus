@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B79623741BEEA0CC00ABFB72 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79623731BEEA0CC00ABFB72 /* SignUpViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		B79623741BEEA0CC00ABFB72 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79623731BEEA0CC00ABFB72 /* SignUpViewController.swift */; };
 		D4EEF7521BEE9D550057BF9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EEF7511BEE9D550057BF9A /* AppDelegate.swift */; };
 		D4EEF7541BEE9D550057BF9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EEF7531BEE9D550057BF9A /* ViewController.swift */; };
 		D4EEF7571BEE9D550057BF9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4EEF7551BEE9D550057BF9A /* Main.storyboard */; };
@@ -18,6 +18,8 @@
 		D4EEF7751BEE9D550057BF9A /* taurusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EEF7741BEE9D550057BF9A /* taurusUITests.swift */; };
 		D4EEF7851BEEA9B60057BF9A /* ChatListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EEF7841BEEA9B60057BF9A /* ChatListTableViewCell.swift */; };
 		D4EEF7871BEEACB50057BF9A /* ChatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EEF7861BEEACB50057BF9A /* ChatListViewController.swift */; };
+		D4EEF7891BEEBCE70057BF9A /* FriendsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EEF7881BEEBCE70057BF9A /* FriendsListViewController.swift */; };
+		D4EEF78B1BEEBD4F0057BF9A /* FriendsListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EEF78A1BEEBD4F0057BF9A /* FriendsListTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		D4EEF7761BEE9D550057BF9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4EEF7841BEEA9B60057BF9A /* ChatListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatListTableViewCell.swift; sourceTree = "<group>"; };
 		D4EEF7861BEEACB50057BF9A /* ChatListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatListViewController.swift; sourceTree = "<group>"; };
+		D4EEF7881BEEBCE70057BF9A /* FriendsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsListViewController.swift; sourceTree = "<group>"; };
+		D4EEF78A1BEEBD4F0057BF9A /* FriendsListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsListTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +115,8 @@
 				B79623731BEEA0CC00ABFB72 /* SignUpViewController.swift */,
 				D4EEF75B1BEE9D550057BF9A /* Assets.xcassets */,
 				D4EEF75D1BEE9D550057BF9A /* LaunchScreen.storyboard */,
+				D4EEF78A1BEEBD4F0057BF9A /* FriendsListTableViewCell.swift */,
+				D4EEF7881BEEBCE70057BF9A /* FriendsListViewController.swift */,
 				D4EEF7841BEEA9B60057BF9A /* ChatListTableViewCell.swift */,
 				D4EEF7861BEEACB50057BF9A /* ChatListViewController.swift */,
 				D4EEF7601BEE9D550057BF9A /* Info.plist */,
@@ -205,7 +211,7 @@
 				TargetAttributes = {
 					D4EEF74D1BEE9D550057BF9A = {
 						CreatedOnToolsVersion = 7.1;
-						DevelopmentTeam = 635S95WM97;
+						DevelopmentTeam = B2NMY273BR;
 					};
 					D4EEF7641BEE9D550057BF9A = {
 						CreatedOnToolsVersion = 7.1;
@@ -271,6 +277,8 @@
 			files = (
 				D4EEF7541BEE9D550057BF9A /* ViewController.swift in Sources */,
 				D4EEF7851BEEA9B60057BF9A /* ChatListTableViewCell.swift in Sources */,
+				D4EEF7891BEEBCE70057BF9A /* FriendsListViewController.swift in Sources */,
+				D4EEF78B1BEEBD4F0057BF9A /* FriendsListTableViewCell.swift in Sources */,
 				D4EEF75A1BEE9D550057BF9A /* taurus.xcdatamodeld in Sources */,
 				B79623741BEEA0CC00ABFB72 /* SignUpViewController.swift in Sources */,
 				D4EEF7521BEE9D550057BF9A /* AppDelegate.swift in Sources */,
@@ -420,8 +428,9 @@
 				INFOPLIST_FILE = taurus/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ravi.taurus;
+				PRODUCT_BUNDLE_IDENTIFIER = Srinivasan.taurus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -433,8 +442,9 @@
 				INFOPLIST_FILE = taurus/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ravi.taurus;
+				PRODUCT_BUNDLE_IDENTIFIER = Srinivasan.taurus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
