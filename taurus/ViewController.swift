@@ -9,17 +9,30 @@
 import UIKit
 
 class ViewController: UIViewController {
-    var loginSuccess = false
+    var loginSuccess = Bool()
     @IBOutlet weak var txtUname: UITextField!
     @IBOutlet weak var txtPwd: UITextField!
-    @IBAction func checkUserPass(sender: AnyObject) {
-        getJson("https://web.njit.edu/~rb454/login.php",uname: txtUname.text!)
-        if !loginSuccess
+    var user = String()
+    @IBAction func checkUserPass(sender: UIButton) {
+        getJson("https://web.njit.edu/~rb454/login.php")
+                if loginSuccess
         {
-            let alert = UIAlertController(title: "User Name or Password is wrong", message: nil, preferredStyle: UIAlertControllerStyle.Alert)
+            print("Login Success")
+            performSegueWithIdentifier("NextScreen", sender: nil)
+            
+           /* let alert = UIAlertController(title: "User Name or Password is wrong", message: nil, preferredStyle: UIAlertControllerStyle.Alert)
             alert.addAction(UIAlertAction(title: "Dismiss", style: UIAlertActionStyle.Default, handler: nil))
-            self.presentViewController(alert, animated: true, completion: nil)
+            self.presentViewController(alert, animated: true, completion: nil)*/
         }
+    }
+    @IBAction func txtValueChanged(sender: AnyObject) {
+       // getJson("https://web.njit.edu/~rb454/login.php")
+        user = txtUname.text!
+        print("from txtValue Chaanged: \(user)")
+        
+
+        print("Value Changed")
+        
     }
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,12 +42,11 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
     }
 
-    func getJson(url: String,uname: String)
+    func getJson(url: String)
     {
         let request = NSMutableURLRequest(URL: NSURL(string: url)!)
         request.HTTPMethod = "POST"
-        
-        let params = "email='\(uname)''"
+        let params = "uname='\(user)'"
         print(params)
         request.HTTPBody = params.dataUsingEncoding(NSUTF8StringEncoding)
         let task1 = NSURLSession.sharedSession().dataTaskWithRequest(request, completionHandler: {data,response, error -> Void in
@@ -43,7 +55,8 @@ class ViewController: UIViewController {
             do{
                 var i = 0
                 let json = try NSJSONSerialization.JSONObjectWithData(data!, options: NSJSONReadingOptions.MutableContainers) as? NSArray
-                //print(json)
+                print("data fetching")
+                print(json)
                 for _ in json! {
                     let dd = json![i]
                     let uname = dd["UserName"] as! String
@@ -60,7 +73,6 @@ class ViewController: UIViewController {
                     
                 });
 
-                print(json)
             }catch _ as NSError{
                 
             }
@@ -69,6 +81,8 @@ class ViewController: UIViewController {
 
 
     }
+    
+    
     
     }
 
