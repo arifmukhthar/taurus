@@ -9,15 +9,16 @@
 import UIKit
 
 class ChatListViewController: UIViewController,UITableViewDelegate,UITableViewDataSource{
-var chatListNames = ["movie","series"]
+var chatListNames = ["lets watch a movie"]
     @IBOutlet weak var chatTableView: UITableView!
+    
+    
+    @IBOutlet weak var newPlan: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         chatTableView.delegate = self
         chatTableView.dataSource = self
-        let newPlanButton: UIBarButtonItem = UIBarButtonItem(title: "New Plan", style: UIBarButtonItemStyle.Plain, target: self, action: "addNewPlan")
-        self.navigationItem.rightBarButtonItem = newPlanButton
-        // Do any additional setup after loading the view.
+                // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
@@ -35,7 +36,7 @@ func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         return chatListNames.count
     
     }
-    
+        
     
      func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("chatListCell", forIndexPath: indexPath)
@@ -55,8 +56,14 @@ func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // Pass the selected object to the new view controller.
     }
     */
-
-    func addNewPlan() {
-        
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "toSplitView" {
+            if let destination = segue.destinationViewController as? CombinedViewController {
+                if let chatIndex = chatTableView.indexPathForSelectedRow?.row {
+                    destination.index = chatIndex
+                
+                }
+        }
+    }
     }
 }

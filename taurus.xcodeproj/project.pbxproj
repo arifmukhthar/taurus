@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B79623741BEEA0CC00ABFB72 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79623731BEEA0CC00ABFB72 /* SignUpViewController.swift */; };
+		D45FE22E1BEF2DF700632881 /* NewPlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45FE22D1BEF2DF700632881 /* NewPlanViewController.swift */; };
 		D4EEF7521BEE9D550057BF9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EEF7511BEE9D550057BF9A /* AppDelegate.swift */; };
 		D4EEF7541BEE9D550057BF9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EEF7531BEE9D550057BF9A /* ViewController.swift */; };
 		D4EEF7571BEE9D550057BF9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4EEF7551BEE9D550057BF9A /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 		D4EEF7871BEEACB50057BF9A /* ChatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EEF7861BEEACB50057BF9A /* ChatListViewController.swift */; };
 		D4EEF7891BEEBCE70057BF9A /* FriendsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EEF7881BEEBCE70057BF9A /* FriendsListViewController.swift */; };
 		D4EEF78B1BEEBD4F0057BF9A /* FriendsListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EEF78A1BEEBD4F0057BF9A /* FriendsListTableViewCell.swift */; };
+		D4EEF78D1BEEE09C0057BF9A /* CombinedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EEF78C1BEEE09C0057BF9A /* CombinedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +43,7 @@
 
 /* Begin PBXFileReference section */
 		B79623731BEEA0CC00ABFB72 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		D45FE22D1BEF2DF700632881 /* NewPlanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewPlanViewController.swift; sourceTree = "<group>"; };
 		D4EEF74E1BEE9D550057BF9A /* taurus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = taurus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4EEF7511BEE9D550057BF9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4EEF7531BEE9D550057BF9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +62,7 @@
 		D4EEF7861BEEACB50057BF9A /* ChatListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatListViewController.swift; sourceTree = "<group>"; };
 		D4EEF7881BEEBCE70057BF9A /* FriendsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsListViewController.swift; sourceTree = "<group>"; };
 		D4EEF78A1BEEBD4F0057BF9A /* FriendsListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsListTableViewCell.swift; sourceTree = "<group>"; };
+		D4EEF78C1BEEE09C0057BF9A /* CombinedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CombinedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,7 +123,9 @@
 				D4EEF7881BEEBCE70057BF9A /* FriendsListViewController.swift */,
 				D4EEF7841BEEA9B60057BF9A /* ChatListTableViewCell.swift */,
 				D4EEF7861BEEACB50057BF9A /* ChatListViewController.swift */,
+				D4EEF78C1BEEE09C0057BF9A /* CombinedViewController.swift */,
 				D4EEF7601BEE9D550057BF9A /* Info.plist */,
+				D45FE22D1BEF2DF700632881 /* NewPlanViewController.swift */,
 				D4EEF7581BEE9D550057BF9A /* taurus.xcdatamodeld */,
 			);
 			path = taurus;
@@ -275,8 +281,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D45FE22E1BEF2DF700632881 /* NewPlanViewController.swift in Sources */,
 				D4EEF7541BEE9D550057BF9A /* ViewController.swift in Sources */,
 				D4EEF7851BEEA9B60057BF9A /* ChatListTableViewCell.swift in Sources */,
+				D4EEF78D1BEEE09C0057BF9A /* CombinedViewController.swift in Sources */,
 				D4EEF7891BEEBCE70057BF9A /* FriendsListViewController.swift in Sources */,
 				D4EEF78B1BEEBD4F0057BF9A /* FriendsListTableViewCell.swift in Sources */,
 				D4EEF75A1BEE9D550057BF9A /* taurus.xcdatamodeld in Sources */,
